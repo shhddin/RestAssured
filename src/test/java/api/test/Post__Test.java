@@ -75,7 +75,6 @@ public class Post__Test {
 	@Test(enabled = false)
 	public void postWithFileValidation() {
 		File file = new File("src\\test\\resources\\post.json");
-		
 		RestAssured
 		.given()
 		.body(file)
